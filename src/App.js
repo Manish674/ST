@@ -12,6 +12,9 @@ const App = () => {
       </div>
       <div className="bg-black h-[95vh] w-full flex justify-center items-center">
         <Sidebar open={open} />
+        <div className="w-full h-full flex justify-center items-center">
+          <h3 className="text-white text-4xl">Study Together!</h3>
+        </div>
       </div>
     </>
   );

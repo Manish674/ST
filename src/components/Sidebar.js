@@ -14,7 +14,7 @@ const Sidebar = ({ open }) => {
     <div
       className={`duration-500 transform translate-x-[${
         open ? "" : "100%"
-      }] absolute right-0 bg-gray-700 w-4/5 h-[95%]`}
+      }]  absolute right-0 bg-gray-700 w-4/5 h-[95%]`}
     >
       {user ? <Chat /> : <SignIn />}
     </div>
