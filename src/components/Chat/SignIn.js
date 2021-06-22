@@ -13,7 +13,7 @@ const SignIn = () => {
         className="p-4 duration-150 bg-[#8ec8fd] rounded-lg hover:text-white"
         onClick={signInWithGoogle}
       >
-        Sign in with google
+        SignIn
       </button>
     </div>
   );
