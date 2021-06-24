@@ -18,6 +18,8 @@ const ContextProvider = ({children}) => {
   const myVideo = useRef();
   const userVideo = useRef();
   const connectionRef = useRef();
+  const callFormRef = useRef(); // Ref for form when call joining button is clicked it adds hidden classname to thei component
+  const videoPlayerRef = useRef(); // Ref to videos calling videos when call joined click it add display property
 
   useEffect(() => {
     navigator.mediaDevices
@@ -101,6 +103,8 @@ const ContextProvider = ({children}) => {
         callUser,
         leaveCall,
         answerCall,
+        callFormRef,
+       videoPlayerRef 
       }}
     >
       {children}

@@ -6,12 +6,16 @@ import VideoPlayer from "./VideoPlayer";
 const VideoComponent = () => {
   return (
     <>
-      <div>
-        <VideoPlayer />
+    <div className="flex flex-col w-max justify-start">
+      <div className="">
         <Options>
           <Notifications />
         </Options>
       </div>
+      <div>
+        <VideoPlayer />
+      </div>
+    </div>
     </>
   );
 };
