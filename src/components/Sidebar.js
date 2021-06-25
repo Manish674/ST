@@ -12,7 +12,7 @@ const Sidebar = ({ open }) => {
   const display = open ? "none" : "";
   return (
     <div
-      className={`duration-500 ${display} transform ${translateValue} absolute right-0 bg-gray-700 w-4/5 h-[95%]`}
+      className={`absolute z-50 duration-500 ${display} transform ${translateValue} absolute  right-0 bg-gray-700 w-4/5 h-[91.6vh]`}
     >
       {user ? <Chat /> : <SignIn />}
     </div>

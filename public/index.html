@@ -27,13 +27,14 @@
     <title>React App</title>
   </head>
   <style>
-    body, html {
-      overflow-x: hidden!important;
+    body {
+      overflow-y: hidden; 
+      overflow-x: hidden;
     }
   </style>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
+    <div style="position: relative; overflow-x:hidden; overflow-y:hidden; " id="root"></div>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
